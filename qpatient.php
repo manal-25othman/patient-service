@@ -150,7 +150,7 @@ $result = mysqli_query($conn, "SELECT * FROM qupatient");
 
     $query = mysqli_query($conn," INSERT INTO  qupatient(nhosptail,nlocation,npatient,idnum,nfile,namecaller,repatient,contactnum,desstate)
     values ('$nhosptail','$nlocation','$npatient','$idnum','$nfile','$namecaller','$repatient','$contactnum','$desstate')");
-                                  echo "<script>window.open('/imaun-hosptail/patientservice/index.php','_self')</script>";
+                                  echo "<script>window.open('/index.php','_self')</script>";
 
     }
 

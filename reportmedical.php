@@ -139,7 +139,7 @@ $result = mysqli_query($conn, "SELECT * FROM reportmedical");
 
     $query = mysqli_query($conn," INSERT INTO  reportmedical(npatient,category,nfile,idnum,contactnum,datebirth)
     values ('$npatient','$b2','$nfile','$idnum','$contactnum','$datebirth')");
-                                  echo "<script>window.open('/imaun-hosptail/patientservice/index.php','_self')</script>";
+                                  echo "<script>window.open('/index.php','_self')</script>";
 
     }
 

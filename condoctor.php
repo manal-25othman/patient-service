@@ -134,7 +134,7 @@ if (isset($_POST['first'])) {
    
 $query = mysqli_query($conn," INSERT INTO  condoctors (nhosptail,Specialist,ndoctor,npatient,nfile,idnum,inpatient,nphone,desstate) 
 values ('$nhosptail','$Specialist','$ndoctor','$npatient','$nfile','$idnum','$inpatient','$nphone','$desstate')");
-                              echo "<script>window.open('/imaun-hosptail/patientservice/index.php','_self')</script>";
+                              echo "<script>window.open('/index.php','_self')</script>";
 
 }
    

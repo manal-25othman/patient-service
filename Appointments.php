@@ -143,7 +143,7 @@ $result = mysqli_query($conn, "SELECT * FROM appointments");
 
     $query = mysqli_query($conn," INSERT INTO  appointments(npatient,category,nfile,idnum,contactnum,clinic)
     values ('$npatient','$b2','$nfile','$idnum','$contactnum','$clinic')");
-                              echo "<script>window.open('/imaun-hosptail/patientservice/index.php','_self')</script>";
+                              echo "<script>window.open('/index.php','_self')</script>";
 
     }
 

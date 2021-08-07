@@ -72,20 +72,20 @@ if($user_type == "medical_director
 if($user_type =="patient_service
 "){
 	
-	header("Location: /patientservicee/patientservice/adminpatientservice.php");
+	header("Location: /adminpatientservice.php");
 	
 
 }
 if($user_type =="report_medical
 "){
 	
-	header("Location: /patientservicee/patientservice/adminreport.php");
+	header("Location: /adminreport.php");
 }
 
 if($user_type =="app_appointment
 "){
 	
-	header("Location: /patientservicee/patientservice/adminAppointments.php");
+	header("Location: /adminAppointments.php");
 }
 if ($user_type == null or $user_type ==""){
 	header("Location: index.php?error=@@@@ ");
