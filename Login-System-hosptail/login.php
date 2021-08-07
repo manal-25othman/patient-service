@@ -72,7 +72,7 @@ if($user_type == "medical_director
 if($user_type =="adminpatient
 "){
 	
-	header("Location: /adminpatientservice.php");
+	header("Location: /adminpatient.php");
 	
 
 }
