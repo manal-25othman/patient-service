@@ -40,7 +40,7 @@
         <ul>
         <li><a href="#service">الخدمات الالكترونية</a></li>
          
-          <li><a href="/patientservicee/patientservice/Login-System-hosptail/index.php">تسجيل الدخول</a></li>
+          <li><a href="/patientservice/Login-System-hosptail/index.php">تسجيل الدخول</a></li>
          
   
         </ul>
