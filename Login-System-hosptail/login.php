@@ -69,7 +69,7 @@ if($user_type == "medical_director
 	
 
 }
-if($user_type =="patient_service
+if($user_type =="patient_services
 "){
 	
 	header("Location: /adminpatientservice.php");
