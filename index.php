@@ -40,7 +40,7 @@
         <ul>
         <li><a href="#service">الخدمات الالكترونية</a></li>
          
-          <li><a href="./Login-System-hosptail/index.php">تسجيل الدخول</a></li>
+          <li><a href="/patientservice/Login-System-hosptail/index.php">تسجيل الدخول</a></li>
          
   
         </ul>
@@ -99,7 +99,7 @@
                           <img src="assets/img/HowtoMakeCompl .jpg" alt="...">
                               </div>
                       <div class="card-body">
-                          <h2 class="card-title"><a href="/patientservicee/patientservice/qpatient.php">   استفسار عن مريض  </a></h2>
+                          <h2 class="card-title"><a href="/patientservice/qpatient.php">   استفسار عن مريض  </a></h2>
                           <p class="card-text">استقبال شكاوي المقدمة من المريض حسب الاجراءات المتبعة  في وثيقة حقوق و علاقات المرضى (تجربة المريض) يتم التعامل مع الشكوى حسب الاهمية وتوجيهها للادارة المختصة بالمشكلة</p>
                       </div>
                   </div>
@@ -110,7 +110,7 @@
                           <img src="assets/img/HowtoMakeCompl .jpg" alt="...">
                               </div>
                       <div class="card-body">
-                          <h2 class="card-title"><a href="/patientservicee/patientservice/condoctor.php">    التواصل مع الطبيب   </a></h2>
+                          <h2 class="card-title"><a href="/patientservice/condoctor.php">    التواصل مع الطبيب   </a></h2>
                           <p class="card-text">استقبال شكاوي المقدمة من المريض حسب الاجراءات المتبعة  في وثيقة حقوق و علاقات المرضى (تجربة المريض) يتم التعامل مع الشكوى حسب الاهمية وتوجيهها للادارة المختصة بالمشكلة</p>
 <!--                          <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i>لقراءة المزيد</a></div>-->
                       </div>
@@ -124,7 +124,7 @@
                           <img src="assets/img/HowtoMakeCompl .jpg" alt="...">
                               </div>
                       <div class="card-body">
-                          <h2 class="card-title"><a href="/patientservicee/patientservice/Appointments.php">   المواعيد </a></h2>
+                          <h2 class="card-title"><a href="/patientservice/Appointments.php">   المواعيد </a></h2>
                           <p class="card-text">استقبال شكاوي المقدمة من المريض حسب الاجراءات المتبعة  في وثيقة حقوق و علاقات المرضى (تجربة المريض) يتم التعامل مع الشكوى حسب الاهمية وتوجيهها للادارة المختصة بالمشكلة</p>
 <!--                          <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i>لقراءة المزيد</a></div>-->
                       </div>
