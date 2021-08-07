@@ -1,13 +1,16 @@
 <?php
+	$servername = "localhost";
+	$username = "admin";
+	$password = "admin123";
+	$db="imaundatabase";
 
-$sname= "localhost";
-$unmae= "root";
-$password = "";
+	// Create connection
+		$conn = new mysqli($servername, $username, $password,$db);
 
-$db_name = "imaundatabase";
 
-$conn = mysqli_connect($sname, $unmae, $password, $db_name);
+	// Check connection
+	if ($conn->connect_error) {
+		die("Connection failed: " . $conn->connect_error);
+	}
 
-if (!$conn) {
-	echo "Connection failed!";
-}
+	?>
