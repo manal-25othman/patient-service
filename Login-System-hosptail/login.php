@@ -79,7 +79,7 @@ if($user_type == "medical_director
 if($user_type =="reportadmin
 "){
 	
-	header("Location: /adminreport.php");
+	header("Location: /adminreports.php");
 }
 
 if($user_type =="adminappointments
