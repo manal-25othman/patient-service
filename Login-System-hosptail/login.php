@@ -72,7 +72,7 @@ if($user_type == "medical_director
 if($user_type =="adminpatient
 "){
 	
-	header("Location: /index.php");
+	header("Location: ./index.php");
 	
 
 }
@@ -101,6 +101,6 @@ if ($user_type == null or $user_type ==""){
 	}
 	
 }else{
-	header("Location: index.php");
+	header("Location: /index.php");
 	exit();
 }
