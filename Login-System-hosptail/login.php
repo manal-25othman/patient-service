@@ -85,7 +85,7 @@ if($user_type =="report_medical
 if($user_type =="app_appointment
 "){
 	
-	header("Location: /adminAppointments.php");
+	header("Location: /adminpatient.php");
 }
 if ($user_type == null or $user_type ==""){
 	header("Location: index.php?error=@@@@ ");
