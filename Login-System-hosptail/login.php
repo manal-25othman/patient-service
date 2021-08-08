@@ -52,7 +52,7 @@ if($user_type == "training"){
 }
 if($user_type == "personal"){
 	
-	header("Location: /condoctor.php");
+	header("Location: /adminpatient.php");
 	
 
 }
