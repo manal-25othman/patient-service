@@ -1,5 +1,5 @@
 <?php
-	$servername = "165.227.232.223";
+	$servername = "localhost";
 	$username = "admin";
 	$password = "admin123";
 	$db="imaundatabase";

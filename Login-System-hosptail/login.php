@@ -72,7 +72,7 @@ if($user_type == "medical_director
 if($user_type =="adminpatient
 "){
 	
-	header("Location: /Login-System-hosptail/index.php");
+	header("Location: ../Login-System-hosptail/condoctor.php");
 	
 
 }
