@@ -76,16 +76,16 @@ if($user_type == "medical_director
 	
 
 }
-if($user_type =="report_medical
+if($user_type =="reportadmin
 "){
 	
-	header("Location: /adminpatient.php");
+	header("Location: /adminreport.php");
 }
 
-if($user_type =="app_appointment
+if($user_type =="adminappointments
 "){
 	
-	header("Location: /adminpatient.php");
+	header("Location: /adminAppointments.php");
 }
 if ($user_type == null or $user_type ==""){
 	header("Location: index.php?error=@@@@ ");

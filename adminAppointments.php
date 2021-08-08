@@ -47,7 +47,7 @@ $result = mysqli_query($conn, "SELECT * FROM Complaints ");
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-        <li><a href="/patientservicee/patientservice/Login-System-hosptail/logout.php">خروج </a></li>
+        <li><a href="/Login-System-hosptail/logout.php">خروج </a></li>
 
           <li><a class="active" href="index.html">الخدمات الالكترونية</a></li>
          
