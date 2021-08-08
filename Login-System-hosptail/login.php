@@ -52,7 +52,7 @@ if($user_type == "training"){
 }
 if($user_type == "personal"){
 	
-	header("Location: /imaun-hosptail/controlpanel/admin/adminpersonalexper.php");
+	header("Location: /condoctor.php");
 	
 
 }
@@ -69,10 +69,10 @@ if($user_type == "medical_director
 	
 
 }
-if($user_type =="adminpatient
+if($user_type == "medical_director
 "){
 	
-	header("Location: ../Login-System-hosptail/condoctor.php");
+	header("Location:/condoctor.php");
 	
 
 }
