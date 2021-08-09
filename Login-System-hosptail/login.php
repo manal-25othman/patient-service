@@ -69,6 +69,14 @@ if($user_type == "medical_director
 	
 
 }
+if($user_type == "reportadmin"){
+	
+	header("Location: /adminpatient.php");
+	
+
+}
+
+
 if($user_type == "medical_director
 "){
 	
@@ -76,11 +84,7 @@ if($user_type == "medical_director
 	
 
 }
-if($user_type =="reportadmin
-"){
-	
-	header("Location: /adminreports.php");
-}
+
 
 if($user_type =="adminappointments
 "){
