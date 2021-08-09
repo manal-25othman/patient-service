@@ -49,7 +49,7 @@
 
       <div class="logo float-left">
               
-              <a href="/imaun-hosptail/index.php" class="scrollto"><img src="assets/img/logo-light.gif" alt="" class="img-fluid">
+              <a href="/index.php" class="scrollto"><img src="assets/img/logo-light.gif" alt="" class="img-fluid">
                   </a>
           </div>
 

@@ -49,7 +49,7 @@ $result = mysqli_query($conn, "SELECT * FROM Complaints ");
         <ul>
         <li><a href="/Login-System-hosptail/logout.php">خروج </a></li>
 
-          <li><a class="active" href="index.html">الخدمات الالكترونية</a></li>
+          <li><a class="active" href="#"> بيانات المرضى</a></li>
          
 
   
