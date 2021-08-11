@@ -178,7 +178,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>imaun-hosptail</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Al-iman-hosptail</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
        
