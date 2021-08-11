@@ -96,7 +96,7 @@
               <div class="col-md-6 d-flex align-items-stretch aos-init" data-aos="fade-up">
                   <div class="card">
                       <div class="card-img">
-                          <img src="assets/img/HowtoMakeCompl .jpg" alt="...">
+                          <img src="assets/img/askdoctor .jpg" alt="...">
                               </div>
                       <div class="card-body">
                           <h2 class="card-title"><a href="/qpatient.php">   استفسار عن مريض  </a></h2>
@@ -107,7 +107,7 @@
               <div class="col-md-6 d-flex align-items-stretch aos-init" data-aos="fade-up">
                   <div class="card">
                       <div class="card-img">
-                          <img src="assets/img/HowtoMakeCompl .jpg" alt="...">
+                      <img src="assets/img/condoctors.jpg" alt="...">
                               </div>
                       <div class="card-body">
                           <h2 class="card-title"><a href="/condoctor.php">    التواصل مع الطبيب   </a></h2>
@@ -121,7 +121,7 @@
               <div class="col-md-6 d-flex align-items-stretch aos-init" data-aos="fade-up">
                   <div class="card">
                       <div class="card-img">
-                      <img src="assets/img/condoctors.jpg" alt="...">
+                      <img src="assets/img/appointment-banner.jpg" alt="...">
                               </div>
                       <div class="card-body">
                           <h2 class="card-title"><a href="/Appointments.php">   المواعيد </a></h2>
@@ -134,7 +134,7 @@
                       <div class="col-md-6 d-flex align-items-stretch aos-init" data-aos="fade-up">
                   <div class="card">
                       <div class="card-img">
-                          <img src="assets/img/condoctors.jpg" alt="...">
+                          <img src="assets/img/reportimg.jpg" alt="...">
                               </div>
                       <div class="card-body">
                           <h2 class="card-title"><a href="/reportmedical.php">   التقارير الطبية  </a></h2>
