@@ -96,7 +96,7 @@
               <div class="col-md-6 d-flex align-items-stretch aos-init" data-aos="fade-up">
                   <div class="card">
                       <div class="card-img">
-                          <img src="assets/img/askdoctor .jpg" alt="...">
+                          <img src="assets/img/askdoctors.jpg" alt="...">
                               </div>
                       <div class="card-body">
                           <h2 class="card-title"><a href="/qpatient.php">   استفسار عن مريض  </a></h2>
@@ -121,7 +121,7 @@
               <div class="col-md-6 d-flex align-items-stretch aos-init" data-aos="fade-up">
                   <div class="card">
                       <div class="card-img">
-                      <img src="assets/img/appointment-banner.jpg" alt="...">
+                      <img src="assets/img/appointment.jpg" alt="...">
                               </div>
                       <div class="card-body">
                           <h2 class="card-title"><a href="/Appointments.php">   المواعيد </a></h2>
