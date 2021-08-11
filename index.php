@@ -40,7 +40,7 @@
         <ul>
         <li><a href="#service">الخدمات الالكترونية</a></li>
          
-          <li><a href="/Login-System-hosptail/index.php">تسجيل الدخول</a></li>
+          <li><a href="/patientservicee/patientservice/Login-System-hosptail/index.php">تسجيل الدخول</a></li>
          
   
         </ul>
@@ -49,7 +49,7 @@
 
       <div class="logo float-left">
               
-              <a href="/index.php" class="scrollto"><img src="assets/img/logo-light.gif" alt="" class="img-fluid">
+              <a href="/imaun-hosptail/index.php" class="scrollto"><img src="assets/img/logo-light.gif" alt="" class="img-fluid">
                   </a>
           </div>
 
@@ -99,7 +99,7 @@
                           <img src="assets/img/HowtoMakeCompl .jpg" alt="...">
                               </div>
                       <div class="card-body">
-                          <h2 class="card-title"><a href="/qpatient.php">   استفسار عن مريض  </a></h2>
+                          <h2 class="card-title"><a href="/patientservicee/patientservice/qpatient.php">   استفسار عن مريض  </a></h2>
                           <p class="card-text">استقبال شكاوي المقدمة من المريض حسب الاجراءات المتبعة  في وثيقة حقوق و علاقات المرضى (تجربة المريض) يتم التعامل مع الشكوى حسب الاهمية وتوجيهها للادارة المختصة بالمشكلة</p>
                       </div>
                   </div>
@@ -107,10 +107,10 @@
               <div class="col-md-6 d-flex align-items-stretch aos-init" data-aos="fade-up">
                   <div class="card">
                       <div class="card-img">
-                          <img src="assets/img/HowtoMakeCompl .jpg" alt="...">
+                          <img src="assets/img/condoctors .jpg" alt="...">
                               </div>
                       <div class="card-body">
-                          <h2 class="card-title"><a href="/condoctor.php">    التواصل مع الطبيب   </a></h2>
+                          <h2 class="card-title"><a href="/patientservicee/patientservice/condoctor.php">    التواصل مع الطبيب   </a></h2>
                           <p class="card-text">استقبال شكاوي المقدمة من المريض حسب الاجراءات المتبعة  في وثيقة حقوق و علاقات المرضى (تجربة المريض) يتم التعامل مع الشكوى حسب الاهمية وتوجيهها للادارة المختصة بالمشكلة</p>
 <!--                          <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i>لقراءة المزيد</a></div>-->
                       </div>
@@ -121,10 +121,10 @@
               <div class="col-md-6 d-flex align-items-stretch aos-init" data-aos="fade-up">
                   <div class="card">
                       <div class="card-img">
-                          <img src="assets/img/HowtoMakeCompl .jpg" alt="...">
+                      <img src="assets/img/condoctors .jpg" alt="...">
                               </div>
                       <div class="card-body">
-                          <h2 class="card-title"><a href="/Appointments.php">   المواعيد </a></h2>
+                          <h2 class="card-title"><a href="/patientservicee/patientservice/Appointments.php">   المواعيد </a></h2>
                           <p class="card-text">استقبال شكاوي المقدمة من المريض حسب الاجراءات المتبعة  في وثيقة حقوق و علاقات المرضى (تجربة المريض) يتم التعامل مع الشكوى حسب الاهمية وتوجيهها للادارة المختصة بالمشكلة</p>
 <!--                          <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i>لقراءة المزيد</a></div>-->
                       </div>
@@ -137,7 +137,7 @@
                           <img src="assets/img/HowtoMakeCompl .jpg" alt="...">
                               </div>
                       <div class="card-body">
-                          <h2 class="card-title"><a href="/reportmedical.php">   التقارير الطبية  </a></h2>
+                          <h2 class="card-title"><a href="/patientservicee/patientservice/reportmedical.php">   التقارير الطبية  </a></h2>
                           <p class="card-text">استقبال شكاوي المقدمة من المريض حسب الاجراءات المتبعة  في وثيقة حقوق و علاقات المرضى (تجربة المريض) يتم التعامل مع الشكوى حسب الاهمية وتوجيهها للادارة المختصة بالمشكلة</p>
 <!--                          <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i>لقراءة المزيد</a></div>-->
                       </div>
@@ -178,7 +178,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>imaun-hosptail</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Al-iman-hosptail</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
        
