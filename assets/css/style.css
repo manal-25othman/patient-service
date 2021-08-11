@@ -414,13 +414,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  font-size: 45px;
+  /* font-size: 45px;
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
   font-family: droidkufi-bold;
-  color: #222222;
+  color: #222222; */
+  font-size: 150px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  font-family: dinnextltarabic-light;
+  color: #f8f9fa;
 }
 
 #hero h2 {
