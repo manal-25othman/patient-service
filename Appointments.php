@@ -57,7 +57,7 @@ $result = mysqli_query($conn, "SELECT * FROM appointments");
  </div>
 
 
-<form  action= "appointments.php" method= "POST"   enctype="multipart/form-data">
+<form  action= "Appointments.php" method= "POST"   enctype="multipart/form-data">
 
 <div class="wrap-input2 validate-input" >
                         <input class="input2" type="text" name="npatient" data-validate = " المستشفى   ">
