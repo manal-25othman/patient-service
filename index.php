@@ -182,7 +182,7 @@
       </div>
       <div class="credits">
        
-        Designed by <a href="https://bootstrapmade.com/">manal alareqi</a>
+        Designed by <a href="#">manal alareqi</a>
       </div>
     </div>
   </footer><!-- End  Footer -->
