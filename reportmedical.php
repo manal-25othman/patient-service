@@ -101,7 +101,7 @@ $result = mysqli_query($conn, "SELECT * FROM reportmedical");
                         ></span>
                     </div>
                     <div class="wrap-input2 validate-input" >
-                        <input class="input2" type="date" name="datebirth" data-validate = " المستشفى   ">
+                        <input class="input2" type="text" name="datebirth" data-validate = " المستشفى   ">
                         <span class="focus-input2" data-placeholder=" العيادة "
                         ></span>
                     </div>
