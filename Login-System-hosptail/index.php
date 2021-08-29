@@ -8,7 +8,7 @@
      <form action="login.php" method="post">
    
               
-	 <a href="/index.php" class="scrollto"> <img src="img/minisrtylogo.png" width="55"  alt=""   class="img-fluid">
+	 <a href="/index.php"> <img src="img/minisrtylogo.png" width="55"  alt=""   class="img-fluid">
 </a>
 
 
