@@ -8,7 +8,8 @@
      <form action="login.php" method="post">
    
               
-	 <img src="img/minisrtylogo.png" width="55"  alt=""   class="img-fluid">
+	 <a href="/index.php" class="scrollto"> <img src="img/minisrtylogo.png" width="55"  alt=""   class="img-fluid">
+</a>
 
 
      	<h2>تسجيل دخول للموظفين فقط </h2>

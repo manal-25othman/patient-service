@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>خدمات المرضى</title>
+  <title> استفسار عن مريض</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -205,13 +205,10 @@ $result = mysqli_query($conn, "SELECT * FROM Complaints ");
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>imaun-hosptail</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>iman-hosptail</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/ -->
+
         Designed by <a href="#">manal alareqi</a>
       </div>
     </div>
