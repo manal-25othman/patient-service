@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar"dir="rtl">
 <head>
 	<title>LOGIN</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css"  >
 </head>
 <body>
      <form action="login.php" method="post">
    
               
-	 <a href="/index.php"> <img src="img/minisrtylogo.png" width="55"  alt="" >
-</a>
+	 <div class="logo float-left">
+              
+              <a href="/index.php" class="scrollto"><img src="assets/img/logo-light.gif" alt="" class="img-fluid">
+                  </a>
+          </div>
 
 
+         
      	<h2>تسجيل دخول للموظفين فقط </h2>
      	<?php if (isset($_GET['error'])) { ?>
      		<p class="error"><?php echo $_GET['error']; ?></p>
