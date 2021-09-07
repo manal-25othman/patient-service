@@ -135,20 +135,7 @@ require 'connection.php';
                     <!-- data-validate = -->
                     
 
-                    <div class="container-contact2-form-btn">
-                        <div class="wrap-contact2-form-btn">
-                            <div class="contact2-form-bgbtn"></div>
-                            <input class="contact2-form-btn"   name="first"  type= "submit"  value="إرسال">
-
-                          
-
-                        </div>
-                    </div>
-
-                </form>
-            </div>
-        </div>
-    </div>
+          
     <?php
 
     if (isset($_POST['first'])) {
