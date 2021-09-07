@@ -119,7 +119,7 @@ require 'connection.php';
         $contactnum=$_POST['contactnum'];
         $datebirth=$_POST['datebirth'];
 
-        $query = mysqli_query($conn," INSERT INTO  reportmedical(npatient,category,nfile,idnum,contactnum,datebirth)
+        $query = mysqli_query($conn," INSERT INTO  reports(npatient,category,nfile,idnum,contactnum,datebirth)
         values ('$npatient','$b2','$nfile','$idnum','$contactnum','$datebirth')");
                                       echo "<script>window.open('/index.php','_self')</script>";
 
