@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title> استفسار عن مريض</title>
+  <title> التقارير الطبية</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -69,7 +69,7 @@ $result = mysqli_query($conn, "SELECT * FROM Complaints ");
 
   <section id="hero" class="d-flex align-items-center">
     <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
-      <h1>  استفسار عن مريض</h1>
+      <h1>   التقارير الطبية </h1>
      
     </div>
   </section>
@@ -111,86 +111,61 @@ $result = mysqli_query($conn, "SELECT * FROM Complaints ");
 
 <table id="customers">
    
-                     
+                      
                         
                         <th>
-                         المستشفى
+                         الاسم 
                         </th>
                        
                         <th>
-                       الموقع
+                      الفئة
                        </th>
                         <th>
-
-                        اسم المريض
+                        رقم الملف
                         </th>
-
                           <th>
-
-                         رقم الهوية
+                         رقم الهوية 
                         </th>
                         <th>
-                        رقم الملف
-                  </th> 
+                         رقم التواصل     
+                        </th> 
+                        
+                        <th>
+                      تاريخ الميلاد
+                      </th>          
                      
-                  <th>
-اسم المتصل                
-  </th>
-                    
-                  <th>
-                  علاقتة بالمريض
-                  </th>
-                  <th>             
-رقم التواصل
-</th>    
-<th>             
-الحالة
-</th>  
-  
 
                         
                       </thead>
                       <tbody>
                       <?php
-                            $result = mysqli_query($conn, "SELECT * FROM qupatient ");
+                            $result = mysqli_query($conn, "SELECT * FROM reports");
 
                             while($row = mysqli_fetch_assoc($result)) 
 { ?>
                         <tr>
-                         
-
-                          <td>
-                        <?php echo $row["nhosptail"]?>
-                          </td>
-                          <td>
-                        <?php echo $row["nlocation"]?>
-                          </td>
+                       
 
                           <td>
                         <?php echo $row["npatient"]?>
                           </td>
-
                           <td>
-                        <?php echo $row["idnum"]?>
+                        <?php echo $row["category"]?>
                           </td>
+
                           <td>
                         <?php echo $row["nfile"]?>
                           </td>
                           <td>
-                        <?php echo $row["namecaller"]?>
+                        <?php echo $row["idnum"]?>
                           </td>
                           <td>
-                        <?php echo $row["repatient"]?>
-                          </td>
-                      
-                          <td>
-                          <?php echo $row["contactnum"]?>
-
+                        <?php echo $row["contactnum"]?>
                           </td>
                           <td>
-                          <?php echo $row["desstate"]?>
-
+                        <?php echo $row["datebirth"]?>
                           </td>
+    
                         </tr>
                         <?php } ?> 
                       </tbody>
@@ -208,7 +183,7 @@ $result = mysqli_query($conn, "SELECT * FROM Complaints ");
         &copy; Copyright <strong><span>iman-hosptail</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-
+       
         Designed by <a href="#">manal alareqi</a>
       </div>
     </div>

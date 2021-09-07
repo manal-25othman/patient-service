@@ -114,9 +114,13 @@ require 'connection.php';
         $npatient=$_POST['npatient'];
         $category=$_POST['category'];
         $b2=implode(',',$category);
+        $nfile=$_POST['nfile'];
+        $idnum=$_POST['idnum'];
+        $contactnum=$_POST['contactnum'];
+        $datebirth=$_POST['datebirth'];
 
-        $query = mysqli_query($conn," INSERT INTO  reports(npatient,category)
-        values ('$npatient','$b2')");
+        $query = mysqli_query($conn," INSERT INTO  reportmedical(npatient,category,nfile,idnum,contactnum,datebirth)
+        values ('$npatient','$b2','$nfile','$idnum','$contactnum','$datebirth')");
                                       echo "<script>window.open('/index.php','_self')</script>";
 
     }
