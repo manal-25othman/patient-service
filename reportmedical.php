@@ -113,6 +113,8 @@ require 'connection.php';
     if (isset($_POST['first'])) {
         $npatient=$_POST['npatient'];
         $category=$_POST['category'];
+        $b2=implode(',',$category);
+
         $query = mysqli_query($conn," INSERT INTO  reports(npatient,category)
         values ('$npatient','$b2')");
                                       echo "<script>window.open('/index.php','_self')</script>";
