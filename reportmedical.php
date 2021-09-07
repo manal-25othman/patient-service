@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ar"dir="rtl">
 
@@ -5,7 +6,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title> التقارير الطبية </title>
+  <title> استفسار عن مريض</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -40,7 +41,7 @@ require 'connection.php';
 <body>
 <?php  'connection.php';
   
-$result = mysqli_query($conn, "SELECT * FROM reportmedical");
+$result = mysqli_query($conn, "SELECT * FROM qupatient");
 ?>
 
 <div class="bg-contact2" style="background-image: url('images/hhh.png');">
@@ -48,7 +49,7 @@ $result = mysqli_query($conn, "SELECT * FROM reportmedical");
             <div class="wrap-contact2">
                 <div class="contact2-form validate-form">
                     <span class="contact2-form-title">
-                    التقارير الطبية
+                    استفسار عن مريض 
                     </span>
  <div>
     
@@ -57,56 +58,59 @@ $result = mysqli_query($conn, "SELECT * FROM reportmedical");
  </div>
 
 
-<form  action= "reportmedical.php" method= "POST"   enctype="multipart/form-data">
+<form  action= "qpatient.php" method= "POST"   enctype="multipart/form-data">
 
 <div class="wrap-input2 validate-input" >
-                        <input class="input2" type="text" name="npatient" data-validate = " المستشفى   ">
-                        <span class="focus-input2" data-placeholder="اسم المريض "
+                        <input class="input2" type="text" name="nhosptail" data-validate = " المستشفى   ">
+                        <span class="focus-input2" data-placeholder="المستشفى "
                         ></span>
                     </div>
-                
-                    <div class="form-row">
-                            <div  class="wrap-input2 validate-input"> الفئة
+                  
 
+      
+                    <div class="wrap-input2 validate-input" data-validate = "الجنسية مطلوبة">
+                        <input class="input2" type="text" name="nlocation">
+                        <span class="focus-input2" data-placeholder="الموقع   "></span>
+     
+            </div>
+            <div class="wrap-input2 validate-input" data-validate = "الجنسية مطلوبة">
+                        <input class="input2" type="text" name="npatient">
+                        <span class="focus-input2" data-placeholder="   اسم المريض  "></span>
+     
+            </div>
 
-                            <div class="value">
-                                <div class="input-group">
-                                    <div class="rs-select2 js-select-simple select--no-search">
-                                        <select name="category[]">
-                                            <option disabled="disabled" selected="selected">اختيار</option>
-                                            <option name="category[]"> طلب  تقرير ملخص خروج من التنويم</option>
-                                            <option name= "category[]"> طلب تقرير إجازة مرضية</option>
-                                            <option name= "category[]"> طلب تقرير طبي مفصل </option>
-                                           
-                                        </select>
-                                        <div class="select-dropdown"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-</div>
-<div class="wrap-input2 validate-input" >
-                        <input class="input2" type="number" name="nfile" data-validate = " المستشفى   ">
-                        <span class="focus-input2" data-placeholder="رقم الملف "
-                        ></span>
-                    </div>
-                    <div class="wrap-input2 validate-input" >
-                        <input class="input2" type="number" name="idnum" data-validate = " المستشفى   ">
-                        <span class="focus-input2" data-placeholder="رقم الهوية "
-                        ></span>
-                    </div>
-                    <div class="wrap-input2 validate-input" >
-                        <input class="input2" type="number" name="contactnum" data-validate = " المستشفى   ">
-                        <span class="focus-input2" data-placeholder=" رقم التواصل  "
-                        ></span>
-                    </div>
-                    <div class="wrap-input2 validate-input" >
-                        <input class="input2" type="text" name="datebirth" data-validate = " المستشفى   ">
-                        <span class="focus-input2" data-placeholder=" العيادة "
-                        ></span>
-                    </div>
-                
-                 
+           <div class="wrap-input2 validate-input" data-validate = "الجنسية مطلوبة">
+                        <input class="input2" type="number" name="idnum">
+                        <span class="focus-input2" data-placeholder="  رقم الهوية للمريض "></span>
+     
+            </div>
+            <div class="wrap-input2 validate-input" data-validate = "الجنسية مطلوبة">
+                        <input class="input2" type="number" name="nfile">
+                        <span class="focus-input2" data-placeholder="  رقم الملف للمريض "></span>
+     
+            </div>
+            <div class="wrap-input2 validate-input" data-validate = "الجنسية مطلوبة">
+                        <input class="input2" type="text" name="namecaller">
+                        <span class="focus-input2" data-placeholder="    اسم المتصل  "></span>
+     
+            </div>
+            <div class="wrap-input2 validate-input" data-validate = "الجنسية مطلوبة">
+                        <input class="input2" type="text" name="repatient">
+                        <span class="focus-input2" data-placeholder="   علاقة المتصل بالمريض "></span>
+     
+            </div>
+            <div class="wrap-input2 validate-input" data-validate = "الجنسية مطلوبة">
+                        <input class="input2" type="number" name="contactnum">
+                        <span class="focus-input2" data-placeholder="     رقم التواصل  "></span>
+     
+            </div>
+            <div class="wrap-input2 validate-input" data-validate = "الجنسية مطلوبة">
+                        <input class="input2" type="text" name="desstate">
+                        <span class="focus-input2" data-placeholder="     الحالة  "></span>
+     
+            </div>
+            
+                    
 
 
                     <!-- data-validate = -->
@@ -127,23 +131,31 @@ $result = mysqli_query($conn, "SELECT * FROM reportmedical");
         </div>
     </div>
     <?php
+
     if (isset($_POST['first'])) {
+        $nhosptail=$_POST['nhosptail'];
+        $nlocation=$_POST['nlocation'];
         $npatient=$_POST['npatient'];
-        $category=$_POST['category'];
-        $b2=implode(',',$category);
-        $nfile=$_POST['nfile'];
         $idnum=$_POST['idnum'];
+        $nfile=$_POST['nfile'];
+        $namecaller=$_POST['namecaller'];
+        $repatient=$_POST['repatient'];
         $contactnum=$_POST['contactnum'];
-        $datebirth=$_POST['datebirth'];
+        $desstate=$_POST['desstate'];
 
 
-    $query = mysqli_query($conn," INSERT INTO  reportmedical(npatient,category,nfile,idnum,contactnum,datebirth)
-    values ('$npatient','$b2','$nfile','$idnum','$contactnum','$datebirth')");
+
+          
+
+
+    $query = mysqli_query($conn," INSERT INTO  qupatient(nhosptail,nlocation,npatient,idnum,nfile,namecaller,repatient,contactnum,desstate)
+    values ('$nhosptail','$nlocation','$npatient','$idnum','$nfile','$namecaller','$repatient','$contactnum','$desstate')");
                                   echo "<script>window.open('/index.php','_self')</script>";
 
     }
 
     ?>
+    
 
 <!--===============================================================================================-->
     <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
