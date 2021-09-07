@@ -49,7 +49,7 @@ require 'connection.php';
             <div class="wrap-contact2">
                 <div class="contact2-form validate-form">
                     <span class="contact2-form-title">
-                    استفسار عن مريض 
+                     التقارير الطبية  
                     </span>
  <div>
     
