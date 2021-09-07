@@ -86,6 +86,47 @@ require 'connection.php';
                             </div>
                         </div>
 </div>
+<div class="wrap-input2 validate-input" >
+                        <input class="input2" type="number" name="nfile" data-validate = " المستشفى   ">
+                        <span class="focus-input2" data-placeholder="رقم الملف "
+                        ></span>
+                    </div>
+                    <div class="wrap-input2 validate-input" >
+                        <input class="input2" type="number" name="idnum" data-validate = " المستشفى   ">
+                        <span class="focus-input2" data-placeholder="رقم الهوية "
+                        ></span>
+                    </div>
+                    <div class="wrap-input2 validate-input" >
+                        <input class="input2" type="number" name="contactnum" data-validate = " المستشفى   ">
+                        <span class="focus-input2" data-placeholder=" رقم التواصل  "
+                        ></span>
+                    </div>
+                    <div class="wrap-input2 validate-input" >
+                        <input class="input2" type="text" name="datebirth" data-validate = " المستشفى   ">
+                        <span class="focus-input2" data-placeholder=" العيادة "
+                        ></span>
+                    </div>
+                
+                 
+
+
+                    <!-- data-validate = -->
+                    
+
+                    <div class="container-contact2-form-btn">
+                        <div class="wrap-contact2-form-btn">
+                            <div class="contact2-form-bgbtn"></div>
+                            <input class="contact2-form-btn"   name="first"  type= "submit"  value="إرسال">
+
+                          
+
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
 
            
                     
