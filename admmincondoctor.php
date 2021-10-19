@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title> استفسار عن مريض</title>
+  <title> التقارير الطبية</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -69,7 +69,7 @@ $result = mysqli_query($conn, "SELECT * FROM Complaints ");
 
   <section id="hero" class="d-flex align-items-center">
     <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
-      <h1>  استفسار عن مريض</h1>
+      <h1>   التقارير الطبية </h1>
      
     </div>
   </section>
@@ -111,214 +111,67 @@ $result = mysqli_query($conn, "SELECT * FROM Complaints ");
 
 <table id="customers">
    
-                     
-                        
-                        <th>
-                         المستشفى
-                        </th>
-                       
-                        <th>
-                       الموقع
-                       </th>
-                        <th>
-
-                        اسم المريض
-                        </th>
-
-                          <th>
-
-                         رقم الهوية
-                        </th>
-                        <th>
-                        رقم الملف
-                  </th> 
-                     
-                  <th>
-اسم المتصل                
-  </th>
-                    
-                  <th>
-                  علاقتة بالمريض
-                  </th>
-                  <th>             
-رقم التواصل
-</th>    
-<th>             
-الحالة
-</th>  
-  
-
-                        
-                      </thead>
-                      <tbody>
-                      <?php
-                            $result = mysqli_query($conn, "SELECT * FROM qupatient ");
-
-                            while($row = mysqli_fetch_assoc($result)) 
-{ ?>
-                        <tr>
-                         
-
-                          <td>
-                        <?php echo $row["nhosptail"]?>
-                          </td>
-                          <td>
-                        <?php echo $row["nlocation"]?>
-                          </td>
-
-                          <td>
-                        <?php echo $row["npatient"]?>
-                          </td>
-
-                          <td>
-                        <?php echo $row["idnum"]?>
-                          </td>
-                          <td>
-                        <?php echo $row["nfile"]?>
-                          </td>
-                          <td>
-                        <?php echo $row["namecaller"]?>
-                          </td>
-                          <td>
-                        <?php echo $row["repatient"]?>
-                          </td>
                       
-                          <td>
-                          <?php echo $row["contactnum"]?>
-
-                          </td>
-                          <td>
-                          <?php echo $row["desstate"]?>
-
-                          </td>
-                        </tr>
-                        <?php } ?> 
-                      </tbody>
-                    </table>
-</table>
-<h1>   التواصلمع طبيب </h1>
-
-<style>
-#customers {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-#customers td, #customers th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#customers tr:nth-child(even){background-color: #f2f2f2;}
-
-#customers tr:hover {background-color: #ddd;}
-
-#customers th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: right;
-  background-color: #04AA6D;
-  color: white;
-}
-</style>
-</head>
-<body>
-
-<table id="customers">
-   
-                     
                         
                         <th>
-                         المستشفى
+                         الاسم 
                         </th>
                        
                         <th>
-                       الموقع
+                      الفئة
                        </th>
                         <th>
-
-                        اسم المريض
+                        رقم الملف
                         </th>
-
                           <th>
-
-                         رقم الهوية
+                         رقم الهوية 
                         </th>
                         <th>
-                        رقم الملف
-                  </th> 
+                         رقم التواصل     
+                        </th> 
+                        
+                        <th>
+                      تاريخ الميلاد
+                      </th>          
                      
-                  <th>
-اسم المتصل                
-  </th>
-                    
-                  <th>
-                  علاقتة بالمريض
-                  </th>
-                  <th>             
-رقم التواصل
-</th>   
-<th>             
-رقم التواصل
-</th>  
-<th>             
-الحالة
-</th>  
-  
 
                         
                       </thead>
                       <tbody>
                       <?php
-                            $result = mysqli_query($conn, "SELECT * FROM condoctors ");
+                            $result = mysqli_query($conn, "SELECT * FROM reports");
 
                             while($row = mysqli_fetch_assoc($result)) 
 { ?>
                         <tr>
-                         
+                       
 
-                          <td>
-                        <?php echo $row["ID"]?>
-                          </td>
-                          <td>
-                        <?php echo $row["nhosptail"]?>
-                          </td>
-
-                          <td>
-                        <?php echo $row["Specialist"]?>
-                          </td>
-
-                          <td>
-                        <?php echo $row["ndoctor"]?>
-                          </td>
                           <td>
                         <?php echo $row["npatient"]?>
                           </td>
+                          <td>
+                        <?php echo $row["category"]?>
+                          </td>
+
                           <td>
                         <?php echo $row["nfile"]?>
                           </td>
                           <td>
                         <?php echo $row["idnum"]?>
                           </td>
-                      
                           <td>
-                          <?php echo $row["inpatient"]?>
-
+                        <?php echo $row["contactnum"]?>
                           </td>
                           <td>
-                          <?php echo $row["nphone"]?>
-
+                        <?php echo $row["datebirth"]?>
                           </td>
-                          <td>
-                          <?php echo $row["desstate"]?>
-
-                          </td>
+    
                         </tr>
                         <?php } ?> 
                       </tbody>
                     </table>
 </table>
+
 </br>
 </br>
 </br>
@@ -330,7 +183,7 @@ $result = mysqli_query($conn, "SELECT * FROM Complaints ");
         &copy; Copyright <strong><span>iman-hosptail</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-
+       
         Designed by <a href="#">manal alareqi</a>
       </div>
     </div>
